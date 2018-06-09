@@ -1,0 +1,11 @@
+*.backupfiles
+*.v1
+.hg/*
+*.tlog
+*.log
+*.pdb
+*.idb
+*.bak
+*.pch
+*.obj
+*.aps

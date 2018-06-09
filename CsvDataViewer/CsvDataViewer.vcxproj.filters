@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Indicator">
+      <UniqueIdentifier>{57442516-e7c1-4f75-8b9b-f33c3d906871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\SideWindow">
+      <UniqueIdentifier>{a25212f8-9685-4eac-ac66-f125264b7ca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\CsvDataViewer">
+      <UniqueIdentifier>{54357a09-901e-4a0e-a590-58751ab2abee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\TRFViewer">
+      <UniqueIdentifier>{13ae0166-357a-4dec-9c70-0b7fdb72784c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ZeroGraph">
+      <UniqueIdentifier>{e4fd23e5-d38e-4537-9d53-7f8eb85b898c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\CompTickChartView">
+      <UniqueIdentifier>{8a121199-1326-4a79-93c3-5bbaa8e944fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CsvDataViewer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CsvDataViewerDoc.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CsvDataViewerView.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="FileView.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassView.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewTree.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputWnd.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesWnd.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TestTradeDlg.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="PairView.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DocManager2.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="IndicatorView.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="IndicatorBB.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="IndicatorMA.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="IndicatorADX.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="IndicatorRSI.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="IndicatorSO.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="IndicatorMACD.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TRFViewerDoc.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TRFViewerView.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ZeroGraphViewer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ZeroGraphDoc.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="IndicatorRCI.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CompTickChartView.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CompTickChartDoc.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CsvDataViewer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassView.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="TestTradeDlg.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DocManager2.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="IndicatorADX.cpp">
+      <Filter>ソース ファイル\Indicator</Filter>
+    </ClCompile>
+    <ClCompile Include="IndicatorBB.cpp">
+      <Filter>ソース ファイル\Indicator</Filter>
+    </ClCompile>
+    <ClCompile Include="IndicatorMA.cpp">
+      <Filter>ソース ファイル\Indicator</Filter>
+    </ClCompile>
+    <ClCompile Include="IndicatorMACD.cpp">
+      <Filter>ソース ファイル\Indicator</Filter>
+    </ClCompile>
+    <ClCompile Include="IndicatorRCI.cpp">
+      <Filter>ソース ファイル\Indicator</Filter>
+    </ClCompile>
+    <ClCompile Include="IndicatorRSI.cpp">
+      <Filter>ソース ファイル\Indicator</Filter>
+    </ClCompile>
+    <ClCompile Include="IndicatorSO.cpp">
+      <Filter>ソース ファイル\Indicator</Filter>
+    </ClCompile>
+    <ClCompile Include="IndicatorView.cpp">
+      <Filter>ソース ファイル\Indicator</Filter>
+    </ClCompile>
+    <ClCompile Include="FileView.cpp">
+      <Filter>ソース ファイル\SideWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputWnd.cpp">
+      <Filter>ソース ファイル\SideWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="PairView.cpp">
+      <Filter>ソース ファイル\SideWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesWnd.cpp">
+      <Filter>ソース ファイル\SideWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewTree.cpp">
+      <Filter>ソース ファイル\SideWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="CsvDataViewerDoc.cpp">
+      <Filter>ソース ファイル\CsvDataViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="CsvDataViewerView.cpp">
+      <Filter>ソース ファイル\CsvDataViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="TRFViewerDoc.cpp">
+      <Filter>ソース ファイル\TRFViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="TRFViewerView.cpp">
+      <Filter>ソース ファイル\TRFViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="ZeroGraphDoc.cpp">
+      <Filter>ソース ファイル\ZeroGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="ZeroGraphViewer.cpp">
+      <Filter>ソース ファイル\ZeroGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="CompTickChartDoc.cpp">
+      <Filter>ソース ファイル\CompTickChartView</Filter>
+    </ClCompile>
+    <ClCompile Include="CompTickChartView.cpp">
+      <Filter>ソース ファイル\CompTickChartView</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CsvDataViewer.reg" />
+    <None Include="res\CsvDataViewer.rc2">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CsvDataViewer.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\file_view.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\file_view_hc.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\class_view.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\class_view_hc.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\fileview.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\fileview_hc.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\classview.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\classview_hc.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\explorer.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\explorer_hc.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\sort.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\sort_hc.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\menuimages.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\menuimages_hc.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\output_wnd.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\output_wnd_hc.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\properties_wnd.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\properties_wnd_hc.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\properties.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\properties_hc.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="UserImages.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\CsvDataViewerDoc.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\CsvDataViewer.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
